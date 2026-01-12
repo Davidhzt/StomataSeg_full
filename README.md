@@ -52,21 +52,3 @@ cd semantic_segmentation && pip install -r requirements.txt
 cd instance_segmentation && pip install -r requirements.txt
 cd pseudo_labeling && pip install -r requirements.txt
 ```
-
-## Citation
-
-If you use this code, please cite:
-
-```bibtex
-@article{stomataseg2025,
-  title={StomataSeg: Semi-Supervised Instance Segmentation for Sorghum Stomatal Components},
-  author={TODO},
-  journal={Artificial Intelligence in Agriculture},
-  year={2025}
-}
-```
-
-## License
-
-MIT License
-
