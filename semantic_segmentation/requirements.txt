@@ -1,0 +1,10 @@
+torch>=2.0.0
+torchvision>=0.15.0
+openmim
+mmengine>=0.7.0
+mmcv>=2.0.0
+mmseg>=1.0.0
+numpy
+opencv-python
+pillow
+
