@@ -5,9 +5,10 @@ Patch-based pseudo-labeling pipeline using Mask R-CNN with ConvNeXt-V2-Base back
 ## Overview
 
 The pipeline includes three main steps:
-1. Prepare patches from labeled data
-2. Generate pseudo-labels on unlabeled data
+1. Prepare patches from original images
+2. Generate pseudo-labels on unlabeled images
 3. Merge labeled and pseudo-labeled datasets
+4. Used the final merged Dataset to retain the same model
 
 ## Usage
 
@@ -42,6 +43,7 @@ python tools/merge_datasets.py \
     --pseudo-root <pseudo_labels_dir> \
     --output-root <merged_output_dir>
 ```
+### Step 4: Retain the Model
 
 ## Configuration
 
