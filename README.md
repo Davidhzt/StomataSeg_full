@@ -22,6 +22,10 @@ StomataSeg_full/
 
 ## Quick Start
 
+### Download Dataset
+
+Our Sorghum Stomata Dataset (StomataSeg) is available for download at [Zenodo](https://zenodo.org/records/18216859).
+
 ### Semantic Segmentation
 
 ```bash
@@ -36,7 +40,7 @@ cd instance_segmentation
 bash scripts/train_all.sh
 ```
 
-### Pseudo Labeling
+### Pseudo Labeling Pipeline
 
 ```bash
 cd pseudo_labeling
@@ -52,3 +56,6 @@ cd semantic_segmentation && pip install -r requirements.txt
 cd instance_segmentation && pip install -r requirements.txt
 cd pseudo_labeling && pip install -r requirements.txt
 ```
+## Acknowledgments
+
+Our code is built based on [MMSegmentation](https://github.com/open-mmlab/mmsegmentation) and [MMDetection](https://github.com/open-mmlab/mmdetection) frameworks.
