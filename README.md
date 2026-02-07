@@ -19,6 +19,15 @@ StomataSeg_full/
 ├── pseudo_labeling/          # Semi-supervised pipeline
 └── README.md
 ```
+## Model Weights
+
+Our model weights are available for download at [Release](https://github.com/Davidhzt/StomataSeg_full/releases/tag/v1.0.0). This release contains the pre-trained weights for the **StomataSeg** Semi-supervised pipeline, specifically the Mask R-CNN with ConvNeXt-V2-Base models.
+
+### Included Models
+1. **Seed Model** (`seed_model.pth`): Initial model trained on 7,662 human-annotated ground truth patches.
+2. **Retrained Model** (`retrained_best.pth`): Final model after semi-supervised retraining with 56,428 pseudo-labeled patches, achieving the best performance (**49.20 AP**).
+
+For detailed performance metrics, refer to Table 4 in our manuscript.
 
 ## Quick Start
 
